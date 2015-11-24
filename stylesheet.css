@@ -1,0 +1,132 @@
+/* Page Setup */
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+p, a {
+	font-family: 'Lato', sans-serif;
+}
+
+.background {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+	background-color: #4E84BA;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: 75%;
+	min-height: 100%;
+	background-color: white;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+/* Header */
+.header {
+	margin: 0 auto;
+	width: 40%;
+}
+
+.header img {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.header ul {
+	margin: 0 auto;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.header li {
+	display: inline-block;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.header a {
+	text-decoration: none;
+	padding: 4px;
+	color: black;
+	text-align: center;
+}
+
+.header a:hover {
+	color: #4E84BA;
+}
+
+/* Main image on index page */
+#main-img {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Tables */
+td p {
+	padding: 0;
+	margin: 0;
+}
+
+.opening-hours table {
+	padding-top: 20px;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.opening-hours td {
+	text-align: center;
+}
+
+.contact-info table {
+	padding-top: 40px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.contact-info td {
+	text-align: center;
+}
+
+.price-list table {
+	padding-top: 20px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.price-list tr th {
+	text-align: left;
+}
+
+.price-list tr th:nth-child(2) {
+	text-align: right;
+}
+
+.price-list tr td:nth-child(2) {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 50px;
+	margin: 0 auto;
+}
+
+#footer img {
+	width: 45px;
+	height: 32px;
+	margin: 0 auto;
+}
